@@ -122,3 +122,8 @@ function cursorAnimation() {
 }
 
 cursorAnimation();
+
+var loaderanim = document.getElementById("loadingAnim");
+window.addEventListener("load", function () {
+  loaderanim.style.display = "none";
+});

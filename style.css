@@ -26,6 +26,50 @@ body {
   background-color: #f7f7f7;
 }
 
+.loading {
+  background-color: #e31a70;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.loadingitems {
+  height: 500px;
+  width: 500px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); /*safari and chrome*/
+  -moz-transform: translate(-50%, -50%); /*firefox*/
+  -ms-transform: translate(-50%, -50%); /*Internet explorer*/
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingitems .pandaloading {
+  margin-top: 30px;
+}
+
+.loadingitems .loaderimg {
+  height: 100vh;
+  width: 100%;
+  scale: 2.1;
+  margin-top: -140px;
+}
+
+.loadingitems h1 {
+  font-family: "main";
+  color: white;
+  font-size: 3rem;
+  margin-top: -40px;
+  letter-spacing: 2px;
+}
+
 .nav {
   height: 80px;
   width: 100%;
@@ -215,7 +259,11 @@ body {
 }
 
 .page2 .elem .dets:hover {
+  .itemtop h4 {
+    color: #e31a70;
+  }
   height: 400px;
+  cursor: pointer;
 }
 
 #dets2 {
@@ -305,6 +353,12 @@ body {
   text-align: start;
   padding: 1vw;
   border-radius: 40px;
+}
+
+.ptag button:hover {
+  background-color: #c01660;
+  cursor: pointer;
+  color: white;
 }
 
 /* responsive code */
