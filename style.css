@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(./fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "main";
+  src: url("./fonts/Futura-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +99,7 @@ body {
   font-size: 13vw;
   text-transform: uppercase;
   line-height: 15vw;
-  font-family: futura;
+  font-family: "main";
 }
 
 .take {
@@ -119,7 +129,7 @@ body {
   opacity: 0;
   scale: 0;
   text-transform: uppercase;
-  font-family: futura;
+  font-family: "main";
 }
 
 .one {
@@ -186,6 +196,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -249,11 +260,11 @@ body {
 
 .maintext h1 {
   font-size: 2.5rem;
-  font-family: futura;
+  font-family: "main";
 }
 
 .ptag h1 {
-  font-family: futura;
+  font-family: "main";
   font-size: 2rem;
   text-align: start;
 }
@@ -310,7 +321,6 @@ body {
   .page1 h1 {
     font-size: 11.8vw;
     line-height: 15vw;
-   
   }
 
   .video-container {
@@ -331,7 +341,7 @@ body {
     scale: 1;
     position: fixed;
     text-transform: uppercase;
-    font-family: futura;
+    font-family: "main";
   }
 
   .page2 {
@@ -403,7 +413,7 @@ body {
 
   .maintext h1 {
     display: none;
-    font-family: futura;
+    font-family: "main";
   }
 
   .ptag {
