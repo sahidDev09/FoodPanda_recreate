@@ -127,3 +127,25 @@ cursorAnimation();
 // window.addEventListener("load", function () {
 //   loaderanim.style.display = "none";
 // });
+
+// Slider review animation js
+
+var swiper = new Swiper(".mySwiper", {
+  loop: true,
+  autoplay: false,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true,
+
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 300,
+    modifier: 0.5,
+    slideShadows: false,
+  },
+  pagination: {},
+});

@@ -421,7 +421,6 @@ body {
   height: 100vh;
   width: 100vw;
   margin-top: 30px;
- 
 }
 
 .download {
@@ -543,15 +542,110 @@ body {
   will-change: opacity;
 }
 
-.card::after{
+.card::after {
   display: block;
-  content: var(--caption) ;
+  content: var(--caption);
   font-weight: 500;
   font-size: 2rem;
   color: #555;
   opacity: 0.75;
   text-align: center;
 }
+
+/* Swiper review animaiton css style code */
+
+
+section h1{
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 00px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.myCard {
+  width: 20em;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1.5em;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  filter: blur(1px);
+}
+
+.card_image {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid #ff8cbc;
+  padding: 3px;
+  margin-bottom: 2em;
+}
+
+.card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.card_name {
+  margin-top: 5px;
+  color: #e31a70;
+  font-size: 18px;
+}
+
+.card_text {
+  text-align: center;
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+
+.card_btn {
+  background-color: #e6347e;
+  border: none;
+  color: white;
+  border-radius: 0.5em;
+  top: 0.5em;
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 500;
+  margin-top: 0.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
 
 /* responsive code */
 
