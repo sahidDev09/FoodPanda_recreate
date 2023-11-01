@@ -987,7 +987,19 @@ textarea.contact_input ~ .icon {
   padding: 2px;
 }
 
-.footer_wrap a:hover {
+.box2 ul a:hover {
+  color: white;
+  scale: 105%;
+  transition: all 0.2s ease-out;
+}
+
+.box3 ul a:hover {
+  color: white;
+  scale: 105%;
+  transition: all 0.2s ease-out;
+}
+
+.box4 ul a:hover {
   color: white;
   scale: 105%;
   transition: all 0.2s ease-out;
