@@ -132,7 +132,7 @@ cursorAnimation();
 
 var swiper = new Swiper(".mySwiper", {
   loop: true,
-  autoplay: false,
+  autoplay: true,
   autoplayTimeout: 1000,
   autoplayHoverPause: true,
 
