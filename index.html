@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css  " />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="main" id="main">
+      <div class="nav">
+        <div class="nav_part1">
+          <img src="./Assets//foodpandalogo.png" alt="" />
+        </div>
+
+        <div class="nav_part2">
+          <div class="links">
+            <a href="#">Dine-in</a>
+            <a href="#">Home delivery</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="iconnav">
+            <i class="ri-menu-fill"></i>
+            <i class="ri-shopping-cart-2-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="page1" id="main">
+        <h1 class="take">Take</h1>
+        <h1>the First bite</h1>
+        <div class="video-container">
+          <div class="play">PLAY</div>
+          <video
+            autoplay
+            loop
+            muted
+            cobver
+            src="./Assets/foodpanda.mp4"></video>
+        </div>
+      </div>
+
+      <div class="page2">
+        <div id="elem1" class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2.jpg"
+            alt="" />
+
+          <div data-scroll data-scroll-speed="-2" class="dets">
+            <div class="itemtop">
+              <div class="circleshape"></div>
+              <h5>SERVICE</h5>
+              <h3>></h3>
+            </div>
+            <div class="showitem">
+              <img
+                class="one"
+                id="shopgif"
+                src="https://i.ibb.co/KbR3zKh/giphy-3.gif"
+                alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="elem2" class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="https://images.deliveryhero.io/image/fd-bd/LH/e30z-hero.jpg"
+            alt="" />
+          <div data-scroll data-scroll-speed="-2" class="dets" id="dets2">
+            <div class="itemtop">
+              <div class="circleshape"></div>
+              <h5>SHOP</h5>
+              <h4>Dine-in</h4>
+              <h3>></h3>
+            </div>
+            <div class="showitem">
+              <img
+                class="one"
+                src="https://i.ibb.co/kQLnD7L/giphy.gif"
+                alt="" />
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div id="elem2 " class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="1"
+            src="https://apicms.thestar.com.my/uploads/images/2020/02/22/572590.jpg"
+            alt="" />
+          <div data-scroll data-scroll-speed="-2" class="dets" id="dets3">
+            <div class="itemtop">
+              <div class="circleshape"></div>
+              <h5>SHOP</h5>
+              <h4>Delivery</h4>
+              <h3>></h3>
+            </div>
+            <div class="showitem">
+              <img
+                class="one"
+                src="https://i.ibb.co/9bWYsL8/giphy-2.gif"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pageinfo">
+        <div class="maintext">
+          <h1>
+            We’re here to help you live life the panda way. Spend more time
+            doing what you love – we’ll take care of tasty meals, fresh
+            groceries and new flavours.
+          </h1>
+        </div>
+        <div class="ptag">
+          <h1>
+            Meet the next generation <br />
+            of delivery!
+          </h1>
+          <p>
+            What makes quick commerce quick? We stand for swift personalised
+            delivery solutions for our customers, partners and employees. Learn
+            how we empower authentic lifestyles and drive innovation across the
+            globe.
+            <button>Read our story</button>
+          </p>
+        </div>
+      </div>
+
+      <h1 class="mostsell">Our most selling Food</h1>
+
+      <div class="page3" id="page3">
+        <div class="child" id="child1">
+          <img src="./Assets/foodone.png" alt="" />
+          <h3>Love bite tomato chowmein</h3>
+          <h2>Price : BDT-499</h2>
+          <p>Rating: ⭐⭐⭐⭐ out of 5</p>
+        </div>
+        <div class="child" id="child2">
+          <img src="./Assets/foodtwo.png" alt="" />
+          <h3>Chicken vegetable curry</h3>
+          <h2>Price : BDT-700</h2>
+          <p>Rating: ⭐⭐⭐ out of 5</p>
+        </div>
+        <div class="child" id="child3">
+          <img src="./Assets/foodthree.png" alt="" />
+          <h3>Regular fried rice</h3>
+          <h2>Price : BDT-199</h2>
+          <p>Rating: ⭐⭐ out of 5</p>
+        </div>
+        <div class="child" id="child4">
+          <img src="./Assets/foodfour.png" alt="" />
+          <h3>Maxican cheesy pizza (Family)</h3>
+          <h2>Price : BDT-1200</h2>
+          <p>Rating: ⭐⭐⭐⭐⭐ out of 5</p>
+        </div>
+      </div>
+
+      <h1 class="put">Put us in your pocket</h1>
+
+      <div class="page4">
+        <div class="mobilecard">
+          <div class="appinfo">
+            <h1>Download the food and groceries you love</h1>
+            <div class="qrtext">
+              <img src="./Assets/QrCode.png" alt="" />
+              <p>
+                It’s all at your fingertips – the restaurants and shops you
+                love. Find the right food and groceries to suit your mood, and
+                make the first bite last. Go ahead, download us.
+              </p>
+              <h2 class="smalldev">Scan the QR code from your mobile</h2>
+            </div>
+            <div class="download">
+              <div class="store">
+                <div class="logo">
+                  <img src="./Assets/appstore.png" alt="" />
+                </div>
+                <div class="ingostore">
+                  <h5>GET IT ON</h5>
+                  <h3>App Store</h3>
+                </div>
+              </div>
+              <div class="store">
+                <div class="store">
+                  <div class="logo">
+                    <img src="./Assets/gplay.png" alt="" />
+                  </div>
+                  <div class="ingostore">
+                    <h5>DOWNLOAD FROM</h5>
+                    <h3>Google play</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="store">
+                <div class="store">
+                  <div class="logo">
+                    <img src="./Assets/appg.png" alt="" />
+                  </div>
+                  <div class="ingostore">
+                    <h5>EXPLORE IT ON</h5>
+                    <h3>App Gallery</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="appimg">
+            <img src="./Assets/mobileScreen.png" alt="Loading" />
+          </div>
+        </div>
+      </div>
+
+      <div class="page5">
+        <div class="page5LE">
+          <div class="meet">
+            <h1>Meet</h1>
+          </div>
+          <div class="ourteam">
+            <h1>
+              Our <br />
+              team
+            </h1>
+            <p>
+              We're a team of product managers and specialists, product
+              designers and product analysts, united by a common goal to make
+              foodpanda's products functional, ...
+            </p>
+          </div>
+        </div>
+        <div class="card_container">
+          <div
+            class="card"
+            style="
+              --image: url('https://i.ibb.co/7v17srw/402933757-1102892704205310-1163909559703492328-n.jpg');
+              --angle: -5deg;
+              --x: 5%;
+              --y: 15%;
+              --caption: 'Navid_Director';
+            "></div>
+
+          <div
+            class="card"
+            style="
+              --image: url('https://i.ibb.co/DfzBr0v/67240372-461774401319405-4046269619906805760-n.jpg');
+              --angle: -1deg;
+              --x: -10%;
+              --y: -20%;
+              --caption: 'SADMAN_Designer';
+            "></div>
+          <div
+            class="card"
+            style="
+              --image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww');
+              --angle: -4deg;
+              --x: -20%;
+              --y: 5%;
+              --caption: 'Sopia _ Product manager';
+            "></div>
+          <div
+            class="card"
+            style="
+              --image: url('https://i.ibb.co/20zrzQf/416370250-1142030053458343-6255738892083708710-n-2.jpg');
+              --angle: -7deg;
+              --x: 10%;
+              --y: -7%;
+              --caption: 'SAHID-Founder';
+            "></div>
+        </div>
+      </div>
+
+      <section>
+        <h1>What our Customers Says</h1>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/mumu.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Anjuman Mumu</span>
+                <span class="card_name">🇧🇩 Banglades</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="https://i.ibb.co/J7VP48T/326740161-585653482906940-4044613279079956821-n.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Jibran Didar</span>
+                <span class="card_name">🇧🇩 Banglades</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+            
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="https://i.ibb.co/QNrDX8p/437747788-1566233380822835-6003911588284162639-n.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Akib hasan</span>
+                <span class="card_name">🇺🇸 USA</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/lisa.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Fatema Lisa</span>
+                <span class="card_name">🇧🇩 Bangladesh</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/abid.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Abid Shariyar</span>
+                <span class="card_name">🇹🇼 Taiwan</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/emad.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Emad</span>
+                <span class="card_name">🇸🇦 Saudi Arabia</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/rahi.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Fahmidur Rahi</span>
+                <span class="card_name">🇺🇸 USA </span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/joyonto.jpg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Joyanto </span>
+                <span class="card_name">🇸🇸 South Sudan</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+
+            <div class="myCard swiper-slide">
+              <div class="card_image">
+                <img src="./Assets/customers/sonia.jpeg" alt="" />
+              </div>
+              <div class="card_content">
+                <span class="card_title">#Sheik Sonia</span>
+                <span class="card_name">🇬🇧 United Kingdom</span>
+                <p class="card_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid cupiditate hic magni? Consequuntur, ut accusamus
+                </p>
+                <button class="card_btn">View more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="left">
+            <div class="contact_wrapper">
+              <div class="contact_heading">
+                <h1>Let's make us smooth <span>.</span></h1>
+                <p>
+                  Or reach us via :
+                  <a href="#">foodpandaofficial@gmail.com</a>
+                </p>
+              </div>
+              <form action="index.html" class="contact_form">
+                <div class="input_wrap">
+                  <input
+                    class="contact_input"
+                    autocomplete="off"
+                    name="First Name"
+                    type="text"
+                    required />
+                  <label>First Name </label>
+                  <i class="icon fa-solid fa-address-card"></i>
+                </div>
+
+                <div class="input_wrap">
+                  <input
+                    class="contact_input"
+                    autocomplete="off"
+                    name="Last Name"
+                    type="text"
+                    required />
+                  <label>Last Name </label>
+                  <i class="icon fa-solid fa-address-card"></i>
+                </div>
+
+                <div class="input_wrap w-100">
+                  <input
+                    class="contact_input"
+                    autocomplete="off"
+                    name="Email"
+                    type="email"
+                    required />
+                  <label>Email</label>
+                  <i class="icon fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="input_wrap textarea w-100">
+                  <textarea
+                    name="Message"
+                    autocomplete="off"
+                    class="contact_input"
+                    required></textarea>
+                  <label>Message</label>
+                  <i class="icon fa-solid fa-comment"></i>
+                </div>
+
+                <div class="contact_btn">
+                  <button class="btn upload">
+                    <span
+                      ><i class="fa-solid fa-paperclip"></i>Add
+                      Attachement</span
+                    >
+                    <input type="file" name="attachement" />
+                  </button>
+                  <input type="submit" value="Send message" class="btn" />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="right">
+            <div class="image_wrapper">
+              <!-- <video
+            autoplay
+            loop
+            muted
+            cover
+            src="./Assets/foodpanda.mp4"></video> -->
+
+              <img
+                src="https://www.deliveryhero.com/wp-content/uploads/2021/08/foodpanda-Germany-expansion-1200x628.png"
+                alt="" />
+
+              <div class="wave_wrap">
+                <svg
+                  class="wave"
+                  viewBox="0 0 783 1536"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    id="wave"
+                    d="M236.705 1356.18C200.542 1483.72 64.5004 1528.54 1 1535V1H770.538C793.858 63.1213 797.23 196.197 624.165 231.531C407.833 275.698 274.374 331.715 450.884 568.709C627.393 805.704 510.079 815.399 347.561 939.282C185.043 1063.17 281.908 1196.74 236.705 1356.18Z" />
+                </svg>
+              </div>
+              <svg
+                class="dashed_wave"
+                viewBox="0 0 345 877"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  id="dashed_wave"
+                  d="M0.5 876C25.6667 836.167 73.2 739.8 62 673C48 589.5 35.5 499.5 125.5 462C215.5 424.5 150 365 87 333.5C24 302 44 237.5 125.5 213.5C207 189.5 307 138.5 246 87C185 35.5 297 1 344.5 1" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mainFooter">
+        <div class="footer_wrap">
+          <div class="box1">
+            <img
+              class="footer_img"
+              src="https://careers.foodpanda.com/wp-content/uploads/2020/07/Logo_foodpanda_horizonzal_white.png"
+              alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              dolorem minima voluptas molestiae harum beatae nihil cum quis
+              exercitationem debitis.
+            </p>
+            <div class="socialmedia">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="box2">
+            <h3>Best Foods</h3>
+            <ul>
+              <a href="#">Burger</a>
+              <a href="#">Pizza</a>
+              <a href="#">MeatBox</a>
+              <a href="#">Biriyani</a>
+              <a href="#">set menu</a>
+            </ul>
+          </div>
+          <div class="box3">
+            <h3>Usefull Links</h3>
+            <ul>
+              <a href="#">Best sell</a>
+              <a href="#">dine-in</a>
+              <a href="#">Discount sale</a>
+              <a href="#">location</a>
+              <a href="#">Out-lates</a>
+            </ul>
+          </div>
+          <div class="box4">
+            <h3>Address</h3>
+            <ul>
+              <a href="#">152, House Road</a
+              ><a href="#">D block</a
+              ><a href="#">Dhanmondi</a
+              ><a href="#">Dahaka</a>
+              <a href="#">Bangladesh</a>
+            </ul>
+          </div>
+        </div>
+        <h2 class="copyrightText">
+          Copyright ©️GreekCode#sahid-by sahid ahmed
+        </h2>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+    <script src="style.js"></script>
+  </body>
+</html>
